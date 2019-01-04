@@ -1,0 +1,15 @@
+.rekap {
+	&_typed {
+		font-size: 30px;
+		color: white;
+
+		&--em {
+			font-style: italic;
+		}
+	}
+}
+
+.typed-cursor {
+	color: white;
+	font-size: 30px;
+}
