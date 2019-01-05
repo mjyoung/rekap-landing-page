@@ -1,11 +1,15 @@
 .rekap {
-	&_typed {
+	&__typed {
 		font-size: 30px;
 		color: white;
 
 		&--em {
 			font-style: italic;
 		}
+	}
+
+	&__summary-image {
+		height: 250px;
 	}
 }
 
