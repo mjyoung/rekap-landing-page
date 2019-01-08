@@ -56,10 +56,10 @@
       startDelay: 1000,
       backSpeed: 100,
       loop: true,
-      strings: ['daily', 'monthly', 'whenever-you-want'],
+      strings: ['daily', 'weekly', 'monthly', 'whenever-you-want'],
       typeSpeed: 60,
     };
 
-    var typed = new Typed('.typed', options);
+    var typed = new Typed('.typed', options); // eslint-disable-line
   }
 })();
